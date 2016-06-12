@@ -212,7 +212,6 @@ textarea {
 
 .guilds .guild-inner:hover {
 	background:transparent !important;
-    transform:scale(1.05);
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {
@@ -290,7 +289,7 @@ textarea {
 .private-channels .search-result.selected,
 .private-channels .search-result:hover {
 	background:rgba(92,154,224,1) !important;
-    width:90%;
+    width:95%;
     border-radius:8px;
     padding-right:10px
 }
@@ -298,7 +297,7 @@ textarea {
 .guild-channels .channel:not(.selected):hover,
 .private-channels .channel:not(.selected):hover {
 	background:rgba(92,154,224,.75) !important;
-    width:90%;
+    width:95% !important;
     border-radius:8px;
     padding-right:10px
 }
@@ -310,7 +309,7 @@ textarea {
 }
 
 .guild-channels .channel-text:not(.selected):hover {
-    width:90% !important;
+    width:95% !important;
     padding-right:10px !important;
 }
 
@@ -340,9 +339,9 @@ textarea {
 }
 
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-	left: 200px;
+	left: 215px;
     width: 5px;
-    margin-top: -3.5px;
+    margin-top: -4px;
 }
 
 .theme-dark #friends .friends-header {
@@ -788,7 +787,7 @@ textarea {
 }
 
 /* Date 1px line */
-.chat .divider:not(.divider-red)>div {
+.chat .divider:not(.divider-blue)>div {
 	background:rgba(255,255,255,0.2) !important;
 }
 
@@ -1112,8 +1111,13 @@ input:focus {
 	background-color:transparent !important;
 }
 
-.private-channels .channel.btn-friends .badge {
+.private-channels .channel.btn-friends {
 	margin-right:10px;
+}
+
+.badge {
+	background-color: #5C9AE0;
+	margin-right: 10px;
 }
 
 .private-channels .channel .close {
