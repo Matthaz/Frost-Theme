@@ -1,11 +1,7 @@
 # Frost-Theme
 
 How to install.
-Click on the Frost.theme.css file above.
-click raw.
-ctrl+s and navigate to you BetterDiscord themes folder.
-Make sure it's named Frost.theme.css.
-And save.
+Click on the Frost.theme.css file above, click raw, ctrl+s and navigate to you BetterDiscord themes folder. Make sure it's named Frost.theme.css and save.
 
 # Screenshots
 
